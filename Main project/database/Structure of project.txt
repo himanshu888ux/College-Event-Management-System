@@ -1,0 +1,42 @@
+Event-Management_System/
+│
+├── assets/
+│   ├── back.mp4
+│   ├── images/
+│   ├── styles.css
+│   └── scripts.js
+│
+├── backend/
+│   ├── login.php
+│   ├── signup.php
+│   ├── dashboard.php
+│   ├── events.php
+│   ├── event_details.php
+│   ├── registrations.php
+│   ├── payments.php
+│   ├── certificates.php
+│   ├── competitions.php
+│   ├── seminars.php
+│   ├── notifications.php
+│   ├── contactus.php
+│   ├── database/
+│   │   ├── connect.php
+│   │   └── schema.sql
+│   └── config.php
+│
+├── frontend/
+│   ├── index.php
+│   ├── login.php
+│   ├── signup.php
+│   ├── dashboard.php
+│   ├── events.php
+│   ├── event_details.php
+│   ├── registrations.php
+│   ├── payment.php
+│   ├── certificates.php
+│   ├── competitions.php
+│   ├── seminars.php
+│   ├── notifications.php
+│   └── contactus.php
+│
+└── README.md
