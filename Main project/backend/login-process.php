@@ -24,14 +24,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $row = $result->fetch_assoc();
             $db_password = $row['password'];
 
-            // Verify password using password_verify()
+            
             if (password_verify($password, $db_password)) {
-                // Store session variables
+                
                 $_SESSION["loggedin"] = true;
-                $_SESSION["id"] = $row['reg_id']; // Ensure correct column name
+                $_SESSION["id"] = $row['reg_id']; 
                 $_SESSION["email"] = $email;
 
-                header("location: welcome.php"); // Redirect to dashboard
+                header("location: welcome.php"); 
                 exit;
             } else {
                 $error = "Invalid email or password.";
